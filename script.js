@@ -57,7 +57,7 @@ document.querySelector('.reset').addEventListener('click',function(){
     document.querySelector('.score').textContent = score;
     document.querySelector('.nbr').textContent = '?';
     document.querySelector('.guess').value = '';
-    document.querySelector('.highscore').value = ' ';
+    document.querySelector('.highscore').value = '';
     document.querySelector('body').style.backgroundColor = '#222';
     document.querySelector('.number').style.width = '15rem';
 });
